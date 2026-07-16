@@ -13,11 +13,14 @@ rustPlatform.buildRustPackage (finalAttrs: {
   src = fetchFromGitHub {
     owner = "NamtaoProductions";
     repo = "savepoint";
-    rev = "v${finalAttrs.version}";
-    hash = "sha256-Mx7zrwK9rwVumFDU7EWhjGai2IEgr++xhaNqv1hFBS4=";
+    #rev = "v${finalAttrs.version}";
+    #hash = "sha256-Mx7zrwK9rwVumFDU7EWhjGai2IEgr++xhaNqv1hFBS4=";
+    rev = "0d35ad05c1954b0a17e32a528d3ac8e02dc23197";
+    hash = "sha256-GEViF4mjCGl7dBZo0iVwM96BPQ2g07qtFlf99UybCxs=";
   };
 
-  cargoHash = "sha256-JRtOrFadDiQRLWIOLF3n6ndrglzOV8M9cA64scm+Ad0=";
+  #cargoHash = "sha256-JRtOrFadDiQRLWIOLF3n6ndrglzOV8M9cA64scm+Ad0=";
+  cargoHash = "sha256-zxTTl/OITzMuFffDds9rALBhm7irBXgRCYksfae5ZBc=";
 
   nativeInstallCheckInputs = [
     versionCheckHook
