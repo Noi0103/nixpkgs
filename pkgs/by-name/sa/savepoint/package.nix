@@ -22,7 +22,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
   src = fetchGit {
     url = "https://github.com/Noi0103/savepoint.git";
     ref = "package-with-crane";
-    rev = "4f5932c0787280b565aa5e5a80c86254d3b9cc44";
+    rev = "be4a5b330fa568807041d6b9f6391db5e5762932";
   };
 
   #cargoHash = "sha256-JRtOrFadDiQRLWIOLF3n6ndrglzOV8M9cA64scm+Ad0=";
